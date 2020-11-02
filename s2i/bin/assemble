@@ -1,0 +1,5 @@
+#!/bin/bash
+echo ">>>> assemble"
+pwd
+echo ">>>> list the source"
+find /tmp/src
