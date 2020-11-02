@@ -1,6 +1,15 @@
 # Introduction
-This is the smallest S2I reo
+This is the simplest [S2I](https://github.com/openshift/source-to-image) example
 
+### Files and Directories
+| File                   | Description                                                  |
+|------------------------|--------------------------------------------------------------|
+| Dockerfile             | Defines the base builder image                               |
+| s2i/bin/assemble       | Script that builds the application                           |
+| s2i/bin/run            | Script that runs the application                             |
+
+
+### Instructions
 1. Build the base builder image
 
    ```
