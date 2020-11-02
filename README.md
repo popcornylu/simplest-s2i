@@ -3,9 +3,9 @@ This is the smallest S2I reo
 
 1. Build the base builder image
 
-  ```
-  docker build -t s2i-base .
-  ```
+   ```
+   docker build -t s2i-base .
+   ```
 
 2. Build app image by the builder image
 
